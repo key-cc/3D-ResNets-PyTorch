@@ -2,7 +2,7 @@
 
 set -e
 
-DATA_DIR="/content/3D-ResNets-PyTorch/data/annotations"
+DATA_DIR="../data/hmdb51/annotations"
 
 if [[ ! -d "${DATA_DIR}" ]]; then
   echo "${DATA_DIR} does not exist. Creating";
